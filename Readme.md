@@ -9,7 +9,7 @@ The file "GNUparallel.list" is used to batch compile the STL files by the follow
 ```
 cat GNUparallel.list | parallel {}
 ```
-After that, each STL file is ZIP:ed with this command to keep the file size down:
+After that, each STL file is ZIP:ed with `pigz` to keep the file size down:
 ```
 pigz -11K -I 16 *.stl`
 ```
