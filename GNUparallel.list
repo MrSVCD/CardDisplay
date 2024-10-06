@@ -1,0 +1,12 @@
+openscad -D h=10 -o CardDisplay-Back10.stl CardDisplay-Back.scad
+openscad -D h=20 -o CardDisplay-Back20.stl CardDisplay-Back.scad
+openscad -D h=30 -o CardDisplay-Back30.stl CardDisplay-Back.scad
+openscad -D h=40 -o CardDisplay-Back40.stl CardDisplay-Back.scad
+openscad -D h=50 -o CardDisplay-Back50.stl CardDisplay-Back.scad
+openscad -D h=60 -o CardDisplay-Back60.stl CardDisplay-Back.scad
+openscad -D h=70 -o CardDisplay-Back70.stl CardDisplay-Back.scad
+openscad -D h=80 -o CardDisplay-Back80.stl CardDisplay-Back.scad
+openscad -D h=90 -o CardDisplay-Back90.stl CardDisplay-Back.scad
+openscad -o CardDisplay-Front.stl CardDisplay-Front.scad
+openscad -o DisplayClips.stl DisplayClips.scad
+
