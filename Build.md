@@ -5,13 +5,13 @@
 
 ## Printing
 
-When you print this you need print 1 of the `CardDisplay-Back#0.stl.zip`, 1x `CardDisplay-Front.stl.zip` and 2x `DisplayClips.stl.zip`.
+When you print this you need print 1 of the `CardDisplay-Back#0.stl.`, 1x `CardDisplay-Front.stl` and 2x `DisplayClips.stl`. These files are in the CardDisplay.zip file.
 
-The number on the end of `CardDisplay-Back#0.stl.zip` is the length from the front of the lens to the front of the OLED display in mm. To find out what length you need take your lens and hold it up to the OLED display and measure the distance that is comfortable for you.
+The number on the end of `CardDisplay-Back#0.stl` is the length from the front of the lens to the front of the OLED display in mm. To find out what length you need take your lens and hold it up to the OLED display and measure the distance that is comfortable for you.
 
 You probably need to unzip the files before using them with your slicer.
 
-**Note:** I have noticed that the `CardDisplay-Back#0.stl.zip` part in my black filament was too reflective for my taste so chose your filament wisely, I used a natural PLA and it is matte enough.
+**Note:** I have noticed that the `CardDisplay-Back#0.stl` part in my black filament was too reflective for my taste so chose your filament wisely, I used a natural PLA and it is matte enough.
 
 ## Building
 

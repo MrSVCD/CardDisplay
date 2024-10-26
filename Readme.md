@@ -12,13 +12,20 @@ In the file `CardDisplay-Back.scad` the variable **h** is the length from the fr
 
 Read [Build.md](Build.md)
 
-## Compile Instructions
+## Rendering Instructions
 
-The file `GNUparallel.list` is used to batch compile the STL files by the following command:
+Rending needs the following software:
+
+* OpenSCAD
+* GNU Parallel
+* advzip from advancecomp 
+
+or
+
+* zip
+
+To render run build.sh
 ```
-cat GNUparallel.list | parallel {}
+$> ./build.sh
 ```
-After that, each STL file is ZIP:ed with `pigz` to keep the file size down:
-```
-pigz -11K -I 16 *.stl`
-```
+This will create CardDisplay.zip with all the STLs inside.
