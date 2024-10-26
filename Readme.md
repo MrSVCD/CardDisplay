@@ -20,8 +20,8 @@ Rending needs the following software:
 * GNU Parallel
 * advzip from advancecomp **or** zip from Info-Zip
 
-To render run build.sh
+To render run render.sh
 ```
-$> ./build.sh
+$> ./render.sh
 ```
 This will create CardDisplay.zip with all the STLs inside.
