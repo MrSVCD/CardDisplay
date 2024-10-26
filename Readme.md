@@ -18,11 +18,7 @@ Rending needs the following software:
 
 * OpenSCAD
 * GNU Parallel
-* advzip from advancecomp 
-
-or
-
-* zip
+* advzip from advancecomp **or** zip from Info-Zip
 
 To render run build.sh
 ```
